@@ -1,0 +1,11 @@
+{
+  "name": "ticker-analysis",
+  "version": "0.0.1",
+  "description": "Ticker analysis side project",
+  "author": "Luis Felipe Zaguini <luisfelipezaguini@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "dependencies": {
+    "fundamentus-unofficial-api": "^1.2.2"
+  }
+}
