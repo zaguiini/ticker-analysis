@@ -9,11 +9,7 @@ const getInfo = async ({ ticker }) => {
   } = await fundamentus.fetch(ticker);
 
   const dividendsPerShare = twoDecimalPlaces(sharePrice * dividendYield);
-
-  const numeroExatoDeCotasAteSustentabilidade = sharePrice / dividendsPerShare;
-  const sharesToSustainability = Math.ceil(
-    numeroExatoDeCotasAteSustentabilidade
-  );
+  const sharesToSustainability = Math.ceil(sharePrice / dividendsPerShare);
 
   console.log({
     sharePrice,
